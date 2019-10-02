@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/icon1"
+            android:src="@drawable/icon1"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_margin="7dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:src="@drawable/icon2"
+            android:layout_weight="50"
+            android:layout_margin="7dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llText1"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Entertainment"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Business"
+            android:textColor="#000"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/llText1"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/icon3"
+            android:src="@drawable/icon3"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_margin="7dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <ImageView
+            android:id="@+id/icon4"
+            android:src="@drawable/icon4"
+            android:layout_weight="50"
+            android:layout_margin="7dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llText2"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Sports"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Science"
+            android:textColor="#000"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/llText2"
+        android:id="@+id/ll3"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/icon5"
+            android:src="@drawable/icon5"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_margin="7dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/icon6"
+            android:src="@drawable/icon6"
+            android:layout_weight="50"
+            android:layout_margin="7dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llText3"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Business"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Health"
+            android:textColor="#000"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
